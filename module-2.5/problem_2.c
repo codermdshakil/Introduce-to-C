@@ -3,19 +3,19 @@
 int main()
 {
 
-    int a, b;
-    scanf("%d %d", &a, &b);
-    int sum = a + b;
-    printf("%d + %d = %d \n", a, b, sum);
+    float a, b;
+    scanf("%f %f", &a, &b);
+    // int sum = a + b;
+    // printf("%d + %d = %d \n", a, b, sum);
 
-    int sub = a - b;
-    printf("%d - %d = %d \n", a, b, sub);
+    // int sub = a - b;
+    // printf("%d - %d = %d \n", a, b, sub);
 
-    int mul = a * b;
-    printf("%d * %d = %d \n", a, b, mul);
+    // int mul = a * b;
+    // printf("%d * %d = %d \n", a, b, mul);
 
-    int div = a / b;
-    printf("%d / %d = %d \n", a, b, div);
+    float div = a / b;
+    printf("%0.1f / %0.1f = %0.2f \n", a, b, div);
 
     return 0;
 }
