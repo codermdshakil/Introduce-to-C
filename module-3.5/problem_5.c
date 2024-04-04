@@ -2,18 +2,19 @@
 
 int main()
 {
-   for (int i = 1; i <= 10; i++)
-   {
-    if (i%5 == 0)
+    int n;
+    scanf("%d", &n);
+    for (int i = 1; i <= n; i++)
     {
-        printf("%d - Yes\n", i);
+        if (i % 5 == 0)
+        {
+            printf("%d Yes\n", i);
+        }
+        else
+        {
+            printf("%d No\n", i);
+        }
     }
-    else{
-        printf("%d - No\n", i);
-    }
-    
-   }
-   
 
     return 0;
 }
