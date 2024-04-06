@@ -8,11 +8,11 @@ int main()
 
     if (a >= b)
     {
-        printf("YES \n");
+        printf("Yes\n");
     }
     else
     {
-        printf("NO\n");
+        printf("No\n");
     }
 
     return 0;
