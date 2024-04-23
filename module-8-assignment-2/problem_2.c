@@ -16,7 +16,7 @@ int main()
         }
         printf("\n");
     }
-    else if (n < 0)
+    else if (n <= 0)
     {
         for (int i = n; i <= 0; i++)
         {
@@ -25,6 +25,5 @@ int main()
 
         printf("\n");
     }
-
     return 0;
 }
