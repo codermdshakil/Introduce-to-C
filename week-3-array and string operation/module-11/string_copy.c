@@ -4,13 +4,16 @@
 int main()
 {
 
-    char x[7], y[7];
+    char x[1001], y[1001];
     scanf("%s %s", x, y);
 
-    for (int i = 0; i < 7; i++)
-    {
-         x[i] = y[i];
-    }
+    // using loop 
+    // for (int i = 0; i <= strlen(y); i++)
+    // {
+    //      x[i] = y[i];
+    // }
+
+    strcpy(x,y);
 
     printf("%s\n", x);
     printf("%s", y);
