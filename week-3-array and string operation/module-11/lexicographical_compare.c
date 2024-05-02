@@ -9,9 +9,7 @@ int main()
     int i = 0;
     while (1)
     {
-
         // check using null 
-        
         if (a[i] == '\0' && b[i] == '\0')
         {
             printf("Same\n");
@@ -31,6 +29,7 @@ int main()
 
 
 
+        // check using value
         if (a[i] == b[i])
         {
             i++;
