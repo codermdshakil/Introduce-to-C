@@ -27,10 +27,7 @@ int main()
     }
 
 
-    for (int i = 0; i < total_len; i++)
-    {
-        printf("%c", x[i]);
-    }
+    printf("%s %s", x, y);
     
     
     return 0;
