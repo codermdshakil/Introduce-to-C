@@ -33,6 +33,8 @@ int main()
             s++;
             k = k - 2;
         }
+        
+        // new line 
         printf("\n");
     }
 
