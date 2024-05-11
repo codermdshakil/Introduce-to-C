@@ -12,5 +12,7 @@ int main()
 {
     // call form main
     sum();
+    sum();
+    sum();
     return 0;
 }
