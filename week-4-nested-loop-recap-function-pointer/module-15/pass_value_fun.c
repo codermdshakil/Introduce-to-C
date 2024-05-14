@@ -6,6 +6,7 @@ void fun(int x){
 int main()
 {
     int x = 10;
+    
     fun(x);
     x = 20;
     printf("M - %d\n", x);
