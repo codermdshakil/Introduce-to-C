@@ -1,3 +1,2 @@
-x er value - 15.40
-x er value - 15.40
-x er value - 15.40
+fun - 10
+M - 20
