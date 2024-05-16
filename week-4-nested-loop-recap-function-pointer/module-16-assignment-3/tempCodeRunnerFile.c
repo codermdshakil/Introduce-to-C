@@ -1,4 +1,4 @@
-if (s[i] != s[len - i - 1])
-        {
-            return 0; // Not a palindrome
-        }
+for (int  j = 3; j >= 1 ; j++)
+        // {
+        //     printf(" ");
+        // }
