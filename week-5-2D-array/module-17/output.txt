@@ -1,1 +1,1 @@
-S string Length - 6
+6 
