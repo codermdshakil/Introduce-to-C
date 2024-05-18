@@ -2,6 +2,7 @@
 
 void fun(int ar[], int n, int i)
 {
+    // base case
     if (i == n)
     {
         return;
@@ -10,6 +11,7 @@ void fun(int ar[], int n, int i)
         printf("%d\n", ar[i]);
     }
     
+    // increament value of i
     fun(ar, n, i+1);
 }
 
