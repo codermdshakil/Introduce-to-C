@@ -6,14 +6,14 @@ int main()
     scanf("%d", &testCase);
     for (int i = 0; i < testCase; i++)
     {
-        int gonfol, a, b, c;
-        scanf("%d %d %d %d", &gonfol, &a, &b, &c);
-        int abc_gonfol = a * b * c;
+        long long int gonfol, a, b, c;
+        scanf("%lld %lld %lld %lld", &gonfol, &a, &b, &c);
+        long long int abc_gonfol = a * b * c;
 
         if (gonfol % abc_gonfol == 0)
         {
-            int x = gonfol / abc_gonfol;
-            printf("%d\n", x);
+            long long int x = gonfol / abc_gonfol;
+            printf("%lld\n", x);
         }
         else
         {
