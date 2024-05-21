@@ -55,6 +55,8 @@ int main()
         }
     }
 
+    // upper piramid side problem start
+
     s = mainNum - 1;
     k = 1;
 
@@ -75,6 +77,27 @@ int main()
         printf("\n");
         s--;
         k = k + 2;
+    }
+
+    // upper piramid side problem end
+
+    // down side problem start
+    for (int i = 0; i < 5; i++)
+    {
+        // printf("kaj\n");
+        // print space
+        for (int j = 1; j <= 5; j++)
+        {
+            printf(" ");
+        }
+
+        // print star
+        for (int j = 1; j <= n; j++)
+        {
+            printf("*");
+        }
+
+        printf("\n");
     }
 
     return 0;
