@@ -2,20 +2,63 @@
 
 int main()
 {
-    int number = 5, s, s1, k, k1;
-    int n;
+    int n, s, k;
     scanf("%d", &n);
 
-    int one = number + n;
-    int three = number + n;
-    int five = number + n;
+    int mainNum = 5;
 
-    s = 8 - 1;
+    if (n % 2 > 0)
+    {
+        if (n == 1)
+        {
+            mainNum = mainNum + 1;
+        }
+        else if (n == 3)
+        {
+            mainNum = mainNum + 2;
+        }
+        else if (n == 5)
+        {
+            mainNum = mainNum + 3;
+        }
+        else if (n == 7)
+        {
+            mainNum = mainNum + 4;
+        }
+        else if (n == 9)
+        {
+            mainNum = mainNum + 5;
+        }
+        else if (n == 11)
+        {
+            mainNum = mainNum + 6;
+        }
+        else if (n == 13)
+        {
+            mainNum = mainNum + 7;
+        }
+        else if (n == 15)
+        {
+            mainNum = mainNum + 8;
+        }
+        else if (n == 17)
+        {
+            mainNum = mainNum + 9;
+        }
+        else if (n == 19)
+        {
+            mainNum = mainNum + 10;
+        }
+        else if (n == 21)
+        {
+            mainNum = mainNum + 11;
+        }
+    }
+
+    s = mainNum - 1;
     k = 1;
-    s1 = s;
-    k1 = n;
 
-    for (int i = 0; i < one || i < three || i < five; i++)
+    for (int i = 0; i < mainNum; i++)
     {
         // print spaceN
         for (int j = 1; j <= s; j++)
@@ -32,22 +75,6 @@ int main()
         printf("\n");
         s--;
         k = k + 2;
-    }
-
-    for (int i = 0; i < 5; i++)
-    {
-        // print spaceN
-        for (int j = 1; j <= s1; j++)
-        {
-            printf(" ");
-        }
-
-        // print start
-        for (int j = 1; j <= k1; j++)
-        {
-            printf("*");
-        }
-        printf("\n");
     }
 
     return 0;
